@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./modal-add.css">
+    <title>Modal Add Info</title>
+</head>
+<body>
+    <div class="modal">
+        <form action="/add.php"></form>
+        <div class="row">
+            <div class="col-25">
+                <label for="ten">Tên</label>
+            </div>
+            <div class="col-75">
+                <input type="text" name="ten">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-25">
+                <label for="email">Email</label>
+            </div>
+            <div class="col-75">
+                <input type="email" name="email">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-25">
+                <label for="sdt">Số Điện Thoại</label>
+            </div>
+            <div class="col-75">
+                <input type="number" name="sdt">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-25">
+                <label for="khoahoc">Khóa Học</label>
+            </div>
+            <div class="col-75">
+                <input type="text" name="khoahoc">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-button">
+                <input type="submit" value="Submit">
+                <input type="reset" value="Clear">
+                <input type="button" value="Close">
+            </div> 
+        </div>
+    </div>
+</body>
+</html>
