@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+input[type=text] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid ;
+    border-radius: 5px;
+}
+label {
+    padding: 10px;
+    display: inline-block;
+}
+input[type=submit] {
+    width: 20%;
+    margin: 7px;
+    border-radius: 5px;
+    background-color: oldlace;
+    padding: 5px;
+}
+input[type=submit]:hover {
+    background-color: orange;
+}
+.col-25 {
+    width: 25%;
+    float: left;
+    margin-top: 7px;
+}
+.col-75 {
+    width: 75%;
+    float: left;
+    margin-top: 7px;
+}
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.row-submit {
+    width: 75%;
+    float: left;
+    margin-left: 25%;
+}
+/* .content {
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 5px 2px;
+} */
+@media screen and (max-width: 600px) {
+    .col-25, .col-75, .col-button {
+        width: 100%;
+        margin-top: 0;
+    }
+}

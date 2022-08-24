@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Upload Video</title>
+    <link rel="stylesheet" href="./page-video.css">
+</head>
+<body>
+    <div class="content">
+        <form action="upload.php"></form>
+        <div class="row">
+            <div class="col-25">
+                <label for="tenvideo">Tên Video</label>
+            </div>
+            <div class="col-75">
+                <input type="text" name="tenvideo">
+            </div>
+        </div>
+    </div>
+        <div class="row">
+            <div class="col-25">
+                <label for="motavideo">Mô Tả</label>
+        </div>
+        <div class="col-75">
+            <input type="text" name="motavideo">
+        </div>
+    </div>
+        <div class="row">
+            <div class="col-25">
+                <label for="myvideo">Select a file</label>
+        </div>
+            <div class="col-75">
+                <input type="file" name="myvideo"><br><br>
+        </div>
+        <div class="row-submit">
+            <input type="submit" value="Upload">
+        </div>
+    </div>
+</body>
+</html>
